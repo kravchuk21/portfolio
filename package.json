@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
+    "serve": "npx @11ty/eleventy --serve",
+    "editorconfig": "editorconfig-checker",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "editorconfig-checker": "^5.0.1",
+    "husky": "^8.0.3"
   }
 }

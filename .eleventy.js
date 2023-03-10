@@ -1,4 +1,4 @@
-module.exports = function (config) {
+module.exports = function(config) {
     config.addPassthroughCopy("src/styles/");
     config.addWatchTarget("src/styles/");
 

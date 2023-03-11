@@ -29,11 +29,11 @@
 
 .contacts__item-link {
     color: var(--typography-primary);
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: lowercase;
 }
 
 .contacts__item-link:hover,
 .contacts__item-link:focus-visible {
-    text-decoration: underline;
+    text-decoration: none;
 }

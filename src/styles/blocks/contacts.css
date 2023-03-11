@@ -1,0 +1,39 @@
+.contacts__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts__item::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--typography-base);
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--typography-base);
+}
+
+.contacts__item:last-child::after {
+    display: none;
+}
+
+.contacts__item-link {
+    color: var(--typography-primary);
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.contacts__item-link:hover,
+.contacts__item-link:focus-visible {
+    text-decoration: underline;
+}

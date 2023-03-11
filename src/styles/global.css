@@ -1,3 +1,16 @@
 body {
     color: var(--typography-primary);
 }
+
+.hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: 0;
+    white-space: nowrap;
+    width: 1px;
+    z-index: -1000;
+    user-select: none;
+}

@@ -1,2 +1,4 @@
 @import "variables.css";
 @import "global.css";
+
+@import "blocks/contacts.css"

@@ -1,0 +1,14 @@
+.project-header {
+    display: flex;
+    margin: 3rem 0 2rem 0;
+}
+
+.project-header__title {
+    color: var(--typography-primary);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-style: normal;
+}

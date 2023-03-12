@@ -4,4 +4,5 @@
 @import "global.css";
 
 @import "blocks/header.css";
+@import "blocks/project.css";
 @import "blocks/contacts.css";

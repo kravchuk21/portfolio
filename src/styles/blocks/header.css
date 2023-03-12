@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    margin: 3rem 0;
+}
+
+.header__title {
+    color: var(--typography-base);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.header__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: var(--typography-base);
+    margin: 0;
+}

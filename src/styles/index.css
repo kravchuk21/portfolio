@@ -1,4 +1,5 @@
 @import "variables.css";
 @import "global.css";
 
-@import "blocks/contacts.css"
+@import "blocks/header.css";
+@import "blocks/contacts.css";

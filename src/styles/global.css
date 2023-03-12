@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    font-family: "Merriweather", serif;
     color: var(--typography-base);
     margin: 0;
     padding: 0;

@@ -4,6 +4,7 @@
 }
 
 .header__title {
+    font-family: "Montserrat", sans-serif;
     color: var(--typography-base);
     font-style: normal;
     font-weight: 800;

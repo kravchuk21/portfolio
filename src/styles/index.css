@@ -6,3 +6,5 @@
 @import "blocks/header.css";
 @import "blocks/project.css";
 @import "blocks/contacts.css";
+
+@import "themes/prism-one-dark.css";

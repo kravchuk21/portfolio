@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html class="page" lang="en">
-<head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-    <title>{{ title }}{% if page.url != '/' %} — {{ meta.title }}{% endif %}</title>
-    <meta name="description" content="{{ meta.description }}">
+        <title>{{ title }}
+            {% if page.url != '/' %} — {{ meta.title }}
+            {% endif %}
+        </title>
+        <meta name="description" content="{{ meta.description }}">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="{{ eleventy.generator }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="{{ eleventy.generator }}">
 
-    <link rel="stylesheet" href="/styles/index.css">
-</head>
-<body class="page__body">
-    <div class="container">
-        {{ content | safe }}
-    </div>
-</body>
+        <link rel="stylesheet" href="/styles/index.css">
+    </head>
+    <body class="page__body">
+        <div class="container">
+            {{ content | safe }}
+        </div>
+    </body>
 </html>

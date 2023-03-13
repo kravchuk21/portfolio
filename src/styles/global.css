@@ -18,10 +18,10 @@ body {
 
 a {
     color: var(--typography-primary);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus-visible {
-    text-decoration: none;
+    text-decoration: underline;
 }

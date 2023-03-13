@@ -34,3 +34,13 @@ body {
     padding: 0 1.5rem;
     margin: 0 auto;
 }
+
+a {
+    color: var(--typography-primary);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus-visible {
+    text-decoration: none;
+}

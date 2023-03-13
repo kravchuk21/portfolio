@@ -26,14 +26,3 @@
 .contacts__item:last-child::after {
     display: none;
 }
-
-.contacts__item-link {
-    color: var(--typography-primary);
-    text-decoration: underline;
-    text-transform: lowercase;
-}
-
-.contacts__item-link:hover,
-.contacts__item-link:focus-visible {
-    text-decoration: none;
-}

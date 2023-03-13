@@ -12,3 +12,62 @@
     line-height: 1.6rem;
     font-style: normal;
 }
+
+img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 1.75rem;
+    line-height: 1.75;
+}
+
+ol,
+ul {
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 1.75rem;
+    padding: 0;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+li {
+    margin-bottom: calc(1.75rem / 2);
+}
+
+:not(pre) > code {
+    border-radius: 0.3em;
+    background: var(--inline-code-bg);
+    color: var(--inline-code-text);
+    padding: 0.05em 0.3em;
+    white-space: normal;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--typography-base);
+}
+
+th,
+td {
+    padding: 0.25em 0.5em;
+}
+
+td {
+    min-width: 200px;
+}
+
+blockquote {
+    margin: 1.2em;
+    border-left: 5px solid var(--typography-primary);
+    padding-left: 1.2em;
+}

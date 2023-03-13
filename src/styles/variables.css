@@ -1,4 +1,6 @@
 :root {
     --typography-primary: #d23669;
     --typography-base: #000000;
+    --inline-code-bg: rgba(255, 229, 100, 0.2);
+    --inline-code-text: #1a1a1a;
 }

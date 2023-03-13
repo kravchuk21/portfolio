@@ -15,3 +15,13 @@ body {
     z-index: -1000;
     user-select: none;
 }
+
+a {
+    color: var(--typography-primary);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus-visible {
+    text-decoration: none;
+}
